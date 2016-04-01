@@ -1,3 +1,13 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 1, 2016, 11:12:47 AM
+    Author     : WALT
+*/
+
 html, body {
   padding: 0;
   margin: 0;
@@ -33,19 +43,38 @@ body {
   background: linear-gradient(to top, rgba(0,0,0,0.65) 0em, rgba(0,0,0,0) 25em);
 }
 
-a {
+.fixed-top li a {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+.navbar-brand {
+ color: white;
+ 
+}
+
+.navbar-header :hover {
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: underline !important ;
+}
+
+
+.fixed-top li :hover {
   text-decoration: underline;
+  background-color:transparent;
+  color: #ffffff;
+}
+
+.navbar-nav li a :hover {
+  background-color: transparent;
 }
 
 #title {
   position: absolute;
   left: 1em;
   bottom: 3.5em;
+  color: white;
 }
 
 #title h1, #title h2 {
