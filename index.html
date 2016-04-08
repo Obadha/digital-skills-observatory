@@ -1,101 +1,120 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-  <head>
-    <title>Digital Skills Observatory</title>
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSO | Digital Skills Observatory</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-        <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+</head> 
+
+<body> 
+    <div class="fixed-container">
+        <div class="navbar nav-container">
+            <div class="container">
+                <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse" >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span></button>
+                    <a class="brand scroll-logo" href="#home">DSO</a>        
+                    <div class="nav-collapse collapse" style="height: 0px;">
+                      <ul class="nav navbar-nav pull-right">
+                        <li><a href="https://mozilla-foundation-research.herokuapp.com/tag/digital-skills-observatory/" class="scroll">Blog</a></li>
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#project" class="scroll">The Project</a></li>
+                        <li><a href="#team" class="scroll">Team</a></li>
+                        
+                        <li><a href="#contact" class="scroll">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
     
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <div class="container" id="home">
+     
+       <div class="span24 top-intro" id='about'>
+           <h2>About</h2>
+            <p>Kenya is a leading innovator in mobile finance. Mobile money services like M-Pesa provide a unique substitute for cash in a place where physical distribution and security are difficult.</p>
+            <p>While many people in Kenya face poverty, they are buying or receiving smartphones at an unprecedented rate. This surge in smartphone adoption brings with it a critical change in social and technological perspective, and the potential for greater financial inclusion.</p>
+            <p> The Digital Skills Observatory looks at the impact of digital skills on the usage of Digital Financial Services. Testing various teaching and delivery methods, the study aims to understand<a href="#">...more...</a></p>
+        </div>
+        <div class="span24 section top-intro" id="project">
+            <h2>The Project</h2>
+            <p>A year long experimental research project in Kenya, during which we will follow 150 first-time smartphone users to observe their technology and data usage patterns with respect to consumption, digital financial services, and digital skills. For a portion of participants, several interventions are planned throughout the year to introduce curriculum and software prototypes that will guide learning and adoption.</p>
+            <p><a href="https://github.com/MozillaFoundation/digital-skills-observatory">Learn more</a></p>
+
+            <p class="span16" style="padding-top:15px"><strong>Research Questions </strong>Find out the research questions driving this project. </p>
+            <a href="https://github.com/MozillaFoundation/digital-skills-observatory/blob/master/questions.md"><img alt="Research Questions" src="images/questions.jpg" class="span4 offset3"></a>
+
+            <div class="clearfix"></div>
+            
+            <p class="span16" style="padding-top:20px"><strong>Research Methodologies </strong>Methodologies used in the research and overall project structure.</p>
+            <a href="https://github.com/MozillaFoundation/digital-skills-observatory/blob/master/README.md"><img alt="Methodologies" src="images/methodology.jpg" class="span4 offset3" style="padding-top:10px"></a>
+            
+            <div class="clearfix"></div>
+
+            <p class="span16" style="padding-top:20px"><strong>Timeline </strong>Our calendar and schedule of future and past events throughout the year.</p>
+            <a href="https://docs.google.com/spreadsheets/d/18GXkDPQedFEeTVBxajkzRBoAyUYST3pfIW-z-fQiX74/edit#gid=989915141"><img alt="Timeline" src="images/timeline.png" class="span4 offset3" style="padding-top:10px"></a>
+
+            <div class="clearfix"></div>
+        
+        </div>
+
+        <div class="span24 section top-intro" id="team">
+            <h2>Team</h2>
+           
+            <p>The Digital Skills Observatory team includes members of the Mozilla Foundation, Digital Divide Data (DDD), and Mozilla Kenya. 
+                This community’s diversity and practical, technical, and local expertise is instrumental in the project’s success.</p>
+            <div class="clearfix"></div> 
+
+            <a href="#" class="learn-more">Meet The Team!</a>
+
+            <div class="clearfix"></div>  
+        </div>
+
+        <div class="span24 section" id="about2">
+            <h2>Something'll go here</h2>
+            
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="span24 section" id="contact">
+            <h2>Something else'll go here(probably contact us section)</h2>
+
+            
+
+        </div>
+
+        <div class="clearfix"></div>    
+   
+    </div>
+
+    <div class="footer">
+        <div class="footer-art"></div>
+        <div class="footer-grass"></div>
+        <div class="footer-wrapper">
+           <ul class="footer-links">
+            <li><p>This project is conducted by Mozilla Foundation and Digital Divide Data in partnership with the Gates Foundation.</p><li>
+             <li class="footer-list"> <img src="images/logo/mozilla.jpg" alt="" />
+             
+             <img src="images/logo/ddd.png" alt="ddd logo" />
+             
+             <li><img src="images/logo/b&m.png" alt="gates logo" /></li>
+             
+           </ul>
+        </div>
+    </div>
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    
-     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        var backgroundDiv = document.querySelector('#background');
-        var backgroundImages = [
-          'images/24038854104_f033c2cd42_k.jpg',
-          'images/24371456450_4dea541e00_k.jpg',
-          'images/24549348272_dde12d1dca_k.jpg',
-          'images/24640877256_6e06ddc746_k.jpg',
-          'images/24667023715_ae6c536743_k.jpg',
-          'images/24667116615_679cc211f9_k.jpg'
-        ];
-        var backgroundImageIndex = Math.floor(Math.random()*backgroundImages.length);
-        backgroundImages.forEach(function (url) {
-          // preload images!
-          var image = new Image();
-          image.src = url;
-        });
-        function nextBackgroundImage() {
-          backgroundImageIndex = (backgroundImageIndex + 1) % backgroundImages.length;
-          backgroundDiv.style.backgroundImage = 'url(\'' + backgroundImages[backgroundImageIndex] + '\')';
-        }
-        setInterval(nextBackgroundImage, 10000);
-        nextBackgroundImage();
-      });
-    </script>
-  </head>
-
-  <body>
-    <div id="background"></div>
-    <div id="title">
-      <h1>Digital Skills Observatory</h1>
-      <h2>Tracking the effect of Digital Skills on Digital Financial Services in Kenya</h2>
-    </div>
-    
-   <nav class="navbar fixed-top">
-   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://mozilla-foundation-research.herokuapp.com/tag/digital-skills-observatory/">Blog</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        
-        
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">The Project <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://github.com/MozillaFoundation/digital-skills-observatory">About</a><li>
-            <li><a href="https://github.com/MozillaFoundation/digital-skills-observatory/blob/master/questions.md">Research Questions</a></li>
-            <li><a href="https://github.com/MozillaFoundation/digital-skills-observatory/blob/master/README.md">Research Methods</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Curriculum</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/18GXkDPQedFEeTVBxajkzRBoAyUYST3pfIW-z-fQiX74/edit#gid=989915141">Timeline</a></li>
-
-          </ul>
-        </li>
-       
-      </ul>
-    
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Meet the Team</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    <ul id="links">
-        
-      
-      <!-- <li><a href="#">Curriculum </a></li> -->
-    </ul>
-    
-    
-  </body>
+    <script src="js/main.js"></script>
+</body> 
 </html>
